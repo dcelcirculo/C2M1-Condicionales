@@ -17,7 +17,9 @@ public class App {
         int numero = entrada.nextInt();
 
         // Implementar condicionales
-        if (numero >= 0) {
+        if (numero == 0) {
+            System.out.println("El numero " + numero + " es nulo");
+        } else if (numero >= 0) {
             System.out.println("El numero " + numero + " es positivo");
         } else {
             System.out.println("El numero " + numero + " es negativo");
